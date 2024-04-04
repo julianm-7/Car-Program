@@ -9,6 +9,7 @@ public:
     string GetModel() const;
     void SetYear();
     void SetMake();
+    void SetModel();
 private:
     int year;
     string make;
@@ -26,4 +27,8 @@ void Car::SetMake() {
 }
 void Car::SetYear() {
     cin>>year;
+}
+
+void Car::SetModel() {
+    cin>>model;
 }

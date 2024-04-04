@@ -27,6 +27,10 @@ void Car::SetMake() {
 }
 void Car::SetYear() {
     cin>>year;
+    if (year<0){
+        cout<<"Invalid year"<<endl;
+        cin>>year;
+    }
 }
 void Car::SetModel() {
     cin>>model;

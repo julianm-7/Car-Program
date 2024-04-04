@@ -28,7 +28,6 @@ void Car::SetMake() {
 void Car::SetYear() {
     cin>>year;
 }
-
 void Car::SetModel() {
     cin>>model;
 }

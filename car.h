@@ -34,4 +34,7 @@ void Car::SetYear() {
 }
 void Car::SetModel() {
     cin>>model;
+    if (model==" "){
+        cout<<"Model name cannot be blank"<<endl;
+    }
 }

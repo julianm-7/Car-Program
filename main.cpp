@@ -8,5 +8,6 @@ int main() {
     cout<<"Hi"<<endl;
     Car X;
     Car Y = X.Nissan();
+    cout<<"hi"<<endl;
     return 0;
 }

@@ -53,9 +53,13 @@ Car::Car(int x, string y, string z) {
     /*
      * If I use cin for setter functions then it may not be possible to use a constructor that has parameters.
      */
+    // so it may be best to have setter functions that use input parameters and have a
+    // constructor that uses cin which is tailored for the user.
+    // That way the user can create a car object by declaring object, having the constructor run with cin, and
+    // then passing those values into the set functions as parameters. Error checking can be done inside set function
 }
 
-Car Car::Nissan() {
+Car Car::Nissan() { // should be a function that returns an object car
     cout<<"printing the function call"<<endl;
     return Car();
 }
